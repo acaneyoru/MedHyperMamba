@@ -2,13 +2,13 @@
 
 This repository contains the official implementation of the paper:
 
-**"MedHyperMamba: A Multi-Capable Mamba with Multimodal Registration, Denoising and Novel Hypergraph Scanning for MRI Brain Tumor Segmentation"** (accepted to Biomedical Signal Processing and Control)
+**"MedHyperMamba: A Multi-Capable Mamba with Multimodal Registration, Denoising and Novel Hypergraph Scanning for MRI Brain Tumor Segmentation"**
 
 ## Requirements
 - Python 3.8+
-- PyTorch 1.12+
-- MONAI
-- ...
+- PyTorch 2.1.0
+- causal-conv1d 1.1.1
+- mamba-ssm 2.2.2
 
 ## Installation
 ```bash
